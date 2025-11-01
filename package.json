@@ -1,0 +1,21 @@
+{
+  "name": "adhd-dopamine-shop",
+  "version": "1.0.0",
+  "main": "src/electron/main.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "electron": "latest",
+    "prisma": "latest",
+    "@prisma/client": "latest"
+  },
+  "devDependencies": {
+    "electron-builder": "latest"
+  }
+}
